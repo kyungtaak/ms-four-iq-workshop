@@ -2,9 +2,9 @@
 
 ## Bugs and feature requests
 
-Search the [upstream issue tracker](https://github.com/wonsungso/ms-four-iq-workshop/issues)
-before opening a new issue. This fork has Issues disabled; workshop reports are
-directed to the upstream repository.
+Search the [workshop issue tracker](https://github.com/wonsungso/ms-four-iq-workshop/issues)
+before opening a new issue. Use this repository for workshop reports,
+including when you work from a fork.
 Include the lab and step, the environment you used, reproduction steps,
 and the expected and actual results.
 

@@ -18,7 +18,7 @@ original_content_date: 2026-10-10
 
 # Microsoft IQ Workshop
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kyungtaak/ms-four-iq-workshop)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/wonsungso/ms-four-iq-workshop)
 
 ## 🔥 Agentic Knowledge Bases 구축 - Next-Level RAG with Azure AI Search
 

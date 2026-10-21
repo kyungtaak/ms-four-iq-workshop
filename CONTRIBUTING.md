@@ -4,7 +4,7 @@ Contributions to the workshop documentation and sample code are welcome.
 
 ## Contributor License Agreement
 
-<!-- TODO: Maintainer confirmation required: applicable CLA policy. Do not assume a CLA bot is configured for this fork or upstream. -->
+<!-- TODO: Maintainer confirmation required: applicable CLA policy. Do not assume a CLA bot is configured for the target repository. -->
 
 ## Code of Conduct
 
@@ -12,8 +12,8 @@ Read and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Issues and proposals
 
-Search the [upstream issue tracker](https://github.com/wonsungso/ms-four-iq-workshop/issues)
-before reporting a bug or proposing a feature. This fork has Issues disabled.
+Search the [workshop issue tracker](https://github.com/wonsungso/ms-four-iq-workshop/issues)
+before reporting a bug or proposing a feature, including when you work from a fork.
 Include the affected lab and step, the relevant revision, your execution environment,
 reproduction steps, and the expected and actual results.
 Discuss substantial changes with the maintainers before implementing them.
@@ -25,7 +25,7 @@ See [SUPPORT.md](SUPPORT.md) for help and support information.
 
 ## Pull requests
 
-Search the [upstream pull requests](https://github.com/wonsungso/ms-four-iq-workshop/pulls)
+Search the [workshop pull requests](https://github.com/wonsungso/ms-four-iq-workshop/pulls)
 for related changes.
 Make your changes in a dedicated branch of your fork and keep unrelated local changes intact.
 Submit the pull request to the maintainer-confirmed `main` branch of
