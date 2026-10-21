@@ -39,10 +39,21 @@ Use follow-up commits when addressing review feedback.
 
 ## Workshop validation
 
-This is a notebook-led workshop. Lab entry documents are under [labs](labs);
-the executable notebooks, shared authentication module, and requirements remain
-under [notebooks](notebooks). Keep notebook code and data paths intact when editing
-the entry documents. Preserve the existing mission and source-hunt cells.
+This is a notebook-led workshop. Each Part notebook is stored in its associated
+directory under [labs](labs), alongside its images and a short README containing
+metadata, an execution link, and navigation. Prerequisites, validation, cleanup,
+and troubleshooting belong in the notebook, not in duplicate README prose.
+The setup lab retains its full Markdown deployment guide.
+This project-specific departure from the full paired-guide format was approved
+by the maintainer on 2026-10-21.
+
+The shared authentication module, requirements, Copilot CLI sidequest, and
+index restoration utility remain under [notebooks](notebooks).
+Run each Part notebook's initial path setup cell before its other code cells.
+It locates the repository root from the working directory and its parents,
+then adds the shared module directory to the Python import path.
+Environment files and data are resolved from that root.
+Preserve the existing mission and source-hunt cells and test any path changes.
 
 The declared execution environments are GitHub Codespaces and local VS Code.
 The existing [devcontainer](.devcontainer/devcontainer.json) uses Python 3.12;

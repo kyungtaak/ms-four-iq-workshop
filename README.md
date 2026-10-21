@@ -66,17 +66,17 @@ flowchart LR
 
 ### 학습 경로
 
-각 랩의 README에서 사전 요구사항과 검증 기준을 확인한 뒤 연결된 노트북을 실행합니다. 실습 본문은 노트북에 있습니다. 공통 인증 모듈과 데이터 경로를 함께 사용하는 노트북 7개는 [notebooks](notebooks)에 유지합니다.
+아래 학습 경로에서 각 랩의 노트북을 바로 엽니다. 사전 요구사항, 실습, 검증과 정리 안내는 노트북에 모았습니다. 랩 README에는 메타데이터와 실행·탐색 링크만 둡니다. 공통 인증 모듈, 패키지 목록과 인덱스 복원 도구는 [notebooks](notebooks)에 유지합니다.
 
 | 순서 | 랩 | 내용 |
 |---|---|---|
 | 00 | [환경 배포](labs/00-setup/README.md) | 계정·권한 준비, Codespaces 또는 로컬 환경 구성, Azure 배포 |
-| 01 | [Foundry IQ](labs/01-foundry-iq/README.md) | 파일 소스와 HR·건강 문서 인덱스로 기본 지식 베이스 구축 |
-| 02 | [Web IQ](labs/02-web-iq/README.md) | 내부 문서와 웹 검색 결합 |
-| 03 | [Fabric IQ](labs/03-fabric-iq/README.md) | 구조화된 제품·재고 데이터와 사내 정책 조회 |
-| 04 | [Work IQ](labs/04-work-iq/README.md) | Microsoft 365 업무 데이터와 사내 정책 조회 |
-| 05 | [Work IQ 없는 통합 검색](labs/05-combined-iq/README.md) | Foundry IQ·Fabric IQ·Web IQ의 4개 소스 결합 |
-| 06 | [전체 IQ 통합 검색](labs/06-all-iq/README.md) | Work IQ를 포함한 5개 소스를 단일 요청으로 조회 |
+| 01 | [Foundry IQ](labs/01-foundry-iq/part1-standard-foundry-iq-kb.ipynb) | 파일 소스와 HR·건강 문서 인덱스로 기본 지식 베이스 구축 |
+| 02 | [Web IQ](labs/02-web-iq/part2-search-mcp-kb.ipynb) | 내부 문서와 웹 검색 결합 |
+| 03 | [Fabric IQ](labs/03-fabric-iq/part3-fabric-iq-to-kb.ipynb) | 구조화된 제품·재고 데이터와 사내 정책 조회 |
+| 04 | [Work IQ](labs/04-work-iq/part4-work-iq-to-kb.ipynb) | Microsoft 365 업무 데이터와 사내 정책 조회 |
+| 05 | [Work IQ 없는 통합 검색](labs/05-combined-iq/part5-except-workiq-kb.ipynb) | Foundry IQ·Fabric IQ·Web IQ의 4개 소스 결합 |
+| 06 | [전체 IQ 통합 검색](labs/06-all-iq/part6-work-iq-fabric-iq-to-kb.ipynb) | Work IQ를 포함한 5개 소스를 단일 요청으로 조회 |
 
 Work IQ의 결제·테넌트·앱 등록을 준비하지 못했다면 Part 4를 건너뛰고 Part 5까지 진행할 수 있습니다. Part 6은 Part 4의 설정과 메일 준비를 재사용합니다.
 

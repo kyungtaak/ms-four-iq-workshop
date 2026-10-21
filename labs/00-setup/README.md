@@ -278,9 +278,9 @@ Part 2, Part 4, Part 5, Part 6은 소스 활동에 오류가 있거나 필요한
 
 > ✅ Codespaces로 진행했다면 배포가 모두 끝났습니다. 아래 "로컬 환경에서 배포하기" 섹션은 건너뛰고 바로 노트북을 진행하세요.
 
-[Part 4의 시작 준비](../../notebooks/part4-work-iq-to-kb.ipynb#시작-준비-search-관리-id-연결)에서 Search 관리 ID 연결과 환경 변수 자동 설정을 진행합니다. 배포 가이드로 돌아올 필요 없이 노트북 안의 안내를 따라가세요.
+[Part 4의 시작 준비](../04-work-iq/part4-work-iq-to-kb.ipynb#시작-준비-search-관리-id-연결)에서 Search 관리 ID 연결과 환경 변수 자동 설정을 진행합니다. 배포 가이드로 돌아올 필요 없이 노트북 안의 안내를 따라가세요.
 
-VS Code에서 [Part 1 안내서](../01-foundry-iq/README.md)의 사전 요구사항과 검증 기준을 확인한 뒤 [part1-standard-foundry-iq-kb.ipynb](../../notebooks/part1-standard-foundry-iq-kb.ipynb)부터 시작하세요.
+VS Code에서 [Part 1 노트북](../01-foundry-iq/part1-standard-foundry-iq-kb.ipynb)을 열고 사전 요구사항을 확인한 뒤 첫 코드 셀부터 순서대로 실행하세요.
 
 ---
 
@@ -363,4 +363,4 @@ Part 1~6에서 같은 배포를 사용하므로 전체 실습이 끝난 뒤 저�
 
 ## 이전·다음
 
-[워크샵 홈](../../README.md) · [다음: Part 1. Foundry IQ](../01-foundry-iq/README.md)
+[워크샵 홈](../../README.md) · [다음: Part 1. Foundry IQ](../01-foundry-iq/part1-standard-foundry-iq-kb.ipynb)
